@@ -1,0 +1,15 @@
+server:
+  port: 6060
+  servlet:
+    context-path: /
+spring:
+  application:
+    name: demo
+  mvc:
+    view:
+      prefix: /jsp/
+      suffix: .jsp
+logging:
+  level:
+    root:
+      com.example.demo: INFO
